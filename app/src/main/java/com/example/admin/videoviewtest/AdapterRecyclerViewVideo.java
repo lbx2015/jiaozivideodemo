@@ -37,7 +37,7 @@ public class AdapterRecyclerViewVideo extends RecyclerView.Adapter<AdapterRecycl
         Log.i(TAG, "onBindViewHolder [" + holder.jzvdStd.hashCode() + "] position=" + position);
 
         holder.jzvdStd.setUp(
-                       "http://v.heitouyang.cn/018542ca2d69488cba15e8807e12b992/ce6e00dbd67446529a1e12a447badb73-97cc75f77269b58925754dde5ceffefd-ld.mp4",
+                VideoConstant.videoUrls[0][position],
                 VideoConstant.videoTitles[0][position], Jzvd.SCREEN_WINDOW_LIST);
         Glide.with(holder.jzvdStd.getContext()).load(VideoConstant.videoThumbs[0][position]).into(holder.jzvdStd.thumbImageView);
     }
