@@ -1,5 +1,5 @@
 # jiaozivideodemo
-<img  src="device20190103161611.gif"/>
+<img  src="https://github.com/lbx2015/jiaozivideodemo/blob/master/app/device20190103161611.gif"/>
 简单实用饺子视频框架播放
   1,implementation 'cn.jzvd:jiaozivideoplayer:6.4.1'
   就可以了
